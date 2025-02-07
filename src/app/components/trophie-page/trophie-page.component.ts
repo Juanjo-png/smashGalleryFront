@@ -1,8 +1,8 @@
 import { Component, ElementRef, OnInit, OnDestroy, ViewChild, HostListener, inject } from '@angular/core';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
+import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { Trofeo } from '../../models/trofeo.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TrofeosServiceService } from '../../services/trofeos-service.service';
@@ -138,10 +138,10 @@ export class TrophiePageComponent implements OnInit, OnDestroy {
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
 
     // Iluminación
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     this.scene.add(ambientLight);
 
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 6);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
     directionalLight.position.set(5, 10, 7.5);
     this.scene.add(directionalLight);
 

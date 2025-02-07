@@ -23,7 +23,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "node_modules/three/examples/jsm/loaders/OBJLoader.js"
+              {
+                "glob": "**/*.js",
+                "input": "node_modules/three/examples/jsm/loaders/",
+                "output": "/assets/three/loaders/"
+              }
             ],
             "styles": [
               "src/styles.css",
