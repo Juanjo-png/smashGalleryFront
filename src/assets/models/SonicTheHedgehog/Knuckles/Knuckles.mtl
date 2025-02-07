@@ -1,0 +1,38 @@
+# Material file for Knuckles.obj
+
+newmtl Knuckles_bodyA
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Knuckles_bodyA.png
+
+newmtl Knuckles_bodyB
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Knuckles_bodyB.png
+
+newmtl Knuckles_EyeL
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Knuckles_EyeL.png
+
+newmtl Knuckles_EyeR
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd Knuckles_EyeR.png
+

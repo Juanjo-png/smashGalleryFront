@@ -1,0 +1,10 @@
+Model: Marin Trophy
+Game: Super Smash Bros. Melee
+Devs: HAL Laboratory, Nintendo
+System: GameCube
+Ripper: Kold-Virus / TabuuForte
+Tools Used: StudioSmashBrothers, HSDraw
+
+Use as you wish, just credit HAL / Nintendo, if you want!
+
+~TF

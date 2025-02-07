@@ -1,0 +1,231 @@
+newmtl mat1
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_arm.png
+
+newmtl mat2
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_belt.png
+
+newmtl mat3
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_body.png
+
+newmtl mat4
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_chain_b.png
+
+newmtl mat5
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_chain_a.png
+
+newmtl mat6
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_chest.png
+
+newmtl mat7
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_claw.png
+
+newmtl mat8
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_fin.png
+
+newmtl mat9
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_foot.png
+
+newmtl mat10
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_hand.png
+
+newmtl mat11
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_head.png
+
+newmtl mat12
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_leg.png
+
+newmtl mat13
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_eye.0.png
+
+newmtl mat14
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_mouth.png
+
+newmtl mat15
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_pants.png
+
+newmtl mat16
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_pants_shadow.png
+
+newmtl mat17
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_shoulder.png
+
+newmtl mat18
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_skl.png
+
+newmtl mat19
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_tail.png
+
+newmtl mat20
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_tongue.png
+
+newmtl mat21
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd kludge_tooth.png
+

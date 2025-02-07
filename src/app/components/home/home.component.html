@@ -1,0 +1,43 @@
+<style>
+    .text-shadow-md {
+      -webkit-text-stroke: 2px #0f2e0c;
+    }
+    .text-shadow-md2 {
+      -webkit-text-stroke: 2px #0c1a2e;
+    }
+  </style>
+  
+  <body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center" style="background-image: url('./../../../assets/images/Background1.png');">
+    <button (click)="toggleMusica()" class="text-[#ffffff] text-center p-3 font-bold text-[2em] absolute right-0 ">
+      <i [class]="musicaActiva ? 'bi bi-x-lg' : 'bi bi-music-note-beamed'"></i>
+    </button>    
+    <div class="flex flex-col items-center justify-center">
+        <div class="w-[60%] h-[75px] flex items-end relative border-solid ">
+            <div class="bg-[#B4C5B8] rounded-[30px] w-[29%] h-[110px] flex justify-center items-start absolute bottom-[-57px] z-[2]">
+              <h2 class="font-extrabold text-[33px] text-[#71C468] text-shadow-md z-[10]">By Series</h2>
+            </div>
+            <div class="bg-[#A1BBCC] rounded-[30px] w-[29%] h-[110px] flex justify-center items-start absolute bottom-[-57px] left-[29%] z-[1]">
+                <h2 class="font-extrabold text-[33px] text-[#6293D9] text-shadow-md2 z-[10]">By Type</h2>
+            </div>
+            <div class="flex justify-center items-start absolute bottom-[-1px] right-[10%] z-[1]">
+                <h2 class="text-[#ffffff] text-center py-1 font-bold text-[28px]">(ALL)</h2>
+            </div>
+        </div>
+        <div class="bg-[rgb(5,42,34)] h-[84%] w-[60%] flex flex-col items-center border-[9px] border-solid border-[#D7E6D9] 
+            border-b-[20px]  rounded-[30px] relative z-[5] pb-3 shadow-[0px_10px_27px_6px_rgba(0,0,0,0.75)]">
+            <div class="border-[3px] border-solid border-[#D7E6D9] flex justify-between items-center my-2 w-[70%]">
+              <i class="bi bi-caret-left-fill text-[#32f052] text-[45px] cursor-pointer" (click)="back()"></i>
+              @if (nombreSerie) {
+                <h3 class="text-[#D7E6D9] text-center py-1 font-bold text-[24px]">{{nombreSerie}}</h3>
+              }
+              <i class="bi bi-caret-right-fill text-[#32f052] text-[40px] cursor-pointer" (click)="next()"></i>
+            </div>
+            <div class="bg-[#484848] h-[89%] w-[98%] border-[3px] border-solid border-[#D7E6D9] grid grid-cols-3 grid-rows-4">
+              @for (trofeo of trofeos; track $index) {
+                <a routerLinkActive="active" routerLink="/trophie/{{trofeo.id}}"><app-trophie-card name="{{trofeo.nombre}}" imagePath="{{trofeo.preview}}" class="w-full h-full" onmouseenter="playsoundeffect()"></app-trophie-card></a>
+              }
+            </div>
+        </div>
+    </div>
+  </body>
+  

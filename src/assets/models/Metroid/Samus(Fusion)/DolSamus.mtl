@@ -1,0 +1,165 @@
+newmtl mat1
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_gun.png
+
+newmtl mat2
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_gun.png
+
+newmtl mat3
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_arms_legs.png
+
+newmtl mat4
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_arms_legs.png
+
+newmtl mat5
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_torso.png
+
+newmtl mat6
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_gun.png
+
+newmtl mat7
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_arms_legs.png
+
+newmtl mat8
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_torso.png
+
+newmtl mat9
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_torso.png
+
+newmtl mat10
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_head_chest.png
+
+newmtl mat11
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_samuse_face.png
+
+newmtl mat12
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_head_chest.png
+
+newmtl mat13
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_fusion_crystal_reflected.png
+
+newmtl mat14
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_gun_threads.png
+
+newmtl mat15
+	Ns 10
+	Ni 1.0
+	d 1.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5 0.5 0.5
+	Kd 0.9 0.9 0.9
+	Ks 0.0 0.0 0.0
+	map_Kd NEW_gun_tip.png
+

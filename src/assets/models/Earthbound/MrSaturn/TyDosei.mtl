@@ -1,0 +1,76 @@
+newmtl JOBJ_0_DOBJ_0_MOBJ_0
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+
+newmtl JOBJ_0_DOBJ_1_MOBJ_1
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+
+newmtl JOBJ_0_DOBJ_2_MOBJ_2
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+
+newmtl JOBJ_0_DOBJ_3_MOBJ_3
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+
+newmtl JOBJ_0_DOBJ_4_MOBJ_4
+	Ns 200
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+	map_Kd TOBJ_0.png
+
+newmtl JOBJ_0_DOBJ_5_MOBJ_5
+	Ns 200
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+	map_Kd TOBJ_1.png
+
+newmtl JOBJ_0_DOBJ_6_MOBJ_6
+	Ns 200
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+	map_Kd TOBJ_2.png
+
+newmtl JOBJ_0_DOBJ_7_MOBJ_7
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+
+newmtl JOBJ_0_DOBJ_8_MOBJ_8
+	Ns 49
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.2 0.2 0.2
+	Ka 0.2 0.2 0.2
+	map_Kd TOBJ_3.png
+

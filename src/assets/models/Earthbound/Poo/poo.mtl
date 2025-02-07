@@ -1,0 +1,38 @@
+# Material file for poo.obj
+
+newmtl Mesh_0018_rip
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd Tex_0003_0.png
+
+newmtl Mesh_0019_rip
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd Tex_0005_0.png
+
+newmtl Mesh_0020_rip
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd Tex_0006_0.png
+
+newmtl Mesh_0024_rip
+	Ns 10
+	d 1
+	illum 2
+	Kd 0.588 0.588 0.588
+	Ks 0.0 0.0 0.0
+	Ka 0.588 0.588 0.588
+	map_Kd Tex_0007_0.png
+
