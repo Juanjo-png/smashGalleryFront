@@ -34,10 +34,10 @@
     font-weight: 600;
   }
 </style>
-<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative max-xs:w-[100%] max-xs:h-[100%]" style="background-image: url('./../../../assets/images/Background2.png');">
+<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative max-xs:overflow-auto max-xs:pb-[130px]" style="background-image: url('./../../../assets/images/Background2.png');">
   <i class="bi bi-arrow-left-short absolute top-9 text-[#ffffff] text-[40px] left-3 cursor-pointer 3xl:text-[80px]" (click)="returnHome()"></i>
   <div class="flex flex-col justify-start customGradient bg-opacity-70 gap-3 z-10 mt-4 h-[80px] 
-  absolute bottom-0  right-0 w-[50%] mb-[3%] 3xl:h-[110px] max-xs:hidden">
+  absolute bottom-0  right-0 w-[50%] mb-[3%] 3xl:h-[110px] max-xs:w-[80%] max-xs:bottom-10">
     <div class="flex gap-3">
         <div class="w-[70px] rounded-md bg-slate-400 flex justify-center items-center"><img src="{{this.juego1?.consolaIMG}}" class="w-[100%]"></div>
         <h3 class="text-white text-[20px] consolestext 3xl:text-[30px]">{{this.juego1?.nombre}}</h3>
@@ -51,18 +51,18 @@
   </div>
     <div class="bg-slate-400 w-[100%] absolute bottom-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%] rotate-180"></div>
     <div class="bg-slate-400 w-[100%] absolute top-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%]"></div>
-    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:pr-[0%] max-xs:justify-normal">
-      <div class="flex justify-center max-xs:flex-col">
-        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] max-xs:w-[100vh] max-xs:h-[500px]">
+    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:h-[100%] max-xs:p-0">
+      <div class="flex justify-center max-xs:flex-col max-xs:w-[100%] max-xs:items-center">
+        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] max-xs:w-[100%] max-xs:h-[500px]">
         </div>
   
-        <div class="w-[28%] py-[2%] 3xl:py-[5%]">
+        <div class="w-[28%] py-[2%] 3xl:py-[5%] max-xs:w-[100%]">
           <div class=" border-b-[#2E4152] text-center border-b-[4px] border-solid border-[#1b2833] flex justify-center items-center gap-[2%]">
             <i class="bi bi-caret-left-fill text-[#32f052] text-[45px] cursor-pointer 3xl:text-[55px]" (click)="back()"></i>
             <h1 class="text-white titletext text-[47px] text-shadow-black 3xl:text-[53px]">{{this.trofeo?.nombre}}</h1>
             <i class="bi bi-caret-right-fill text-[#32f052] text-[40px] cursor-pointer 3xl:text-[55px]" (click)="next()"></i>
           </div>
-          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px] max-xs:text-[20px]">
+          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px]">
             {{this.trofeo?.descripcion}}
           </p>
         </div>

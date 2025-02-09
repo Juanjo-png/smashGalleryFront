@@ -7,7 +7,7 @@
     }
   </style>
   
-  <body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center max-xs:h-[100%] pb-5" style="background-image: url('./../../../assets/images/Background1.png');">
+  <body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center pb-5 max-xs:overflow-auto" style="background-image: url('./../../../assets/images/Background1.png');">
     <button (click)="toggleMusica()" class="text-[#ffffff] text-center p-3 font-bold text-[2em] absolute right-0 ">
       <i [class]="musicaActiva ? 'bi bi-x-lg' : 'bi bi-music-note-beamed'"></i>
     </button>    
@@ -25,7 +25,7 @@
         </div>
         <div class="bg-[rgb(5,42,34)] h-[84%] w-[60%] flex flex-col items-center border-[9px] border-solid border-[#D7E6D9] 
             border-b-[20px]  rounded-[30px] relative z-[5] pb-3 shadow-[0px_10px_27px_6px_rgba(0,0,0,0.75)] max-xs:w-[90%] 3xl:w-[70%] 3xl:h-[85%] 3xl:mt-[60px]">
-            <div class="border-[3px] border-solid border-[#D7E6D9] flex justify-between items-center my-2 w-[70%]">
+            <div class="border-[3px] border-solid border-[#D7E6D9] flex justify-between items-center my-2 w-[70%] max-xs:w-[95%]">
               <i class="bi bi-caret-left-fill text-[#32f052] text-[45px] cursor-pointer" (click)="back()"></i>
               @if (nombreSerie) {
                 <h3 class="text-[#D7E6D9] text-center py-1 font-bold text-[24px] 3xl:text-[34px]">{{nombreSerie}}</h3>
