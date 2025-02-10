@@ -5,6 +5,7 @@ import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/r
 import { HttpClientModule } from '@angular/common/http';
 import { Trofeo } from '../../models/trofeo.model';
 import { SeriesServiceService } from '../../services/series-service.service';
+import Swal from 'sweetalert2';
 
 
 @Component({
