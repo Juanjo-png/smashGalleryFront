@@ -35,16 +35,16 @@
   }
   
 </style>
-<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative max-xs:overflow-auto" style="background-image: url('./../../../assets/images/Background2.png');">
+<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative max-xs:overflow-auto max-mdl:overflow-auto" style="background-image: url('./../../../assets/images/Background2.png');">
   <i class="bi bi-arrow-left-short absolute top-9 text-[#ffffff] text-[40px] left-3 cursor-pointer 3xl:text-[80px]" (click)="returnHome()"></i>
     <div class="bg-slate-400 w-[100%] absolute bottom-0 h-[30px] overflow-hidden max-xs:hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%] rotate-180"></div>
     <div class="bg-slate-400 w-[100%] absolute top-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%]"></div>
     <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:h-[100%] max-xs:p-0">
       <div class="flex justify-center max-xs:flex-col max-xs:w-[100%] max-xs:items-center">
-        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] max-xs:w-[100%] max-xs:h-[500px] max-xs:mt-[400px]">
+        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] max-xs:w-[100%] max-xs:h-[500px] max-xs:mt-[40%">
         </div>
   
-        <div class="w-[28%] py-[2%] 3xl:py-[5%] max-xs:w-[100%]">
+        <div class="w-[28%] py-[2%] 3xl:py-[5%] max-xs:w-[100%] max-mdl:py-0">
           <div class=" border-b-[#2E4152] text-center border-b-[4px] border-solid border-[#1b2833] flex justify-center items-center gap-[2%]">
             <i class="bi bi-caret-left-fill text-[#32f052] text-[45px] cursor-pointer 3xl:text-[55px]" (click)="back()"></i>
             <h1 class="text-white titletext text-[47px] text-shadow-black 3xl:text-[53px]">{{this.trofeo?.nombre}}</h1>
