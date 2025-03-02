@@ -42,7 +42,7 @@
     <div class="bg-slate-400 w-[100%] absolute top-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%]"></div>
     
     <!-- Contenido -->
-    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:h-[100%] max-xs:p-0 max-xs:pt-[80%]" >
+    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:h-[100%] max-xs:p-0 max-xs:pt-[75%]" >
       
       <div class="flex justify-center max-xs:flex-col max-xs:w-[100%] max-xs:items-center">
         <!-- Contenedor Modelo -->
@@ -67,13 +67,13 @@
           <!-- Juegos -->
           <div class="flex flex-col justify-center items-start text-left customGradient bg-opacity-70 gap-3 z-10 mt-4
            w-[100%] mb-[3%] 3xl:h-[110px] max-xs:w-[100%] max-xs:h-auto max-xs:items-left max-xs:py-3 max-xs:pl-6 ">
-            <div class="flex gap-3">
+            <div class="flex gap-3 items-center">
               <div class="w-[70px] rounded-md bg-slate-400 flex justify-center items-center max-xs:h-[40px] max-xs:px-1  max-xs:items-center"><img
                   src="{{this.juego1?.consolaIMG}}" class="w-[100%]"></div>
               <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] max-xs:text-[16px]">{{this.juego1?.nombre}}</h3>
             </div>
             @if (this.trofeo?.juego2) {
-            <div class="flex gap-3">
+            <div class="flex gap-3 items-center">
               <div class="w-[70px] rounded-md bg-slate-400 flex justify-center items-center max-xs:h-[40px] max-xs:px-1"><img
                   src="{{this.juego2?.consolaIMG}}" class="w-[100%]"></div>
               <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] max-xs:text-[16px]">{{this.juego2?.nombre}}</h3>
