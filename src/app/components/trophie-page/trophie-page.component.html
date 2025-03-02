@@ -41,11 +41,11 @@
     <div class="bg-slate-400 w-[100%] absolute top-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%]"></div>
     
     <!-- Contenido -->
-    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] xs:h-[100%] xs:p-0 xs:pt-[80%] mdl:h-[100%] mdl:p-0 mdl:pt-[40%]" >
+    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] xs:h-[100%] xs:p-0 xs:pt-[80%] mdl:h-[100%] mdl:p-0 mdl:pt-[9%]" >
       
       <div class="flex justify-center xs:flex-col xs:w-[100%] xs:items-center mdl:flex-col mdl:w-[100%] mdl:items-center ">
         <!-- Contenedor Modelo -->
-        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] xs:w-[100%] xs:h-[500px] xs:mt-[40%]mdl:w-[100%] mdl:h-[500px] xs:mdl-[10%]">
+        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] xs:w-[100%] xs:h-[500px] xs:mt-[40%]mdl:w-[100%] mdl:h-[500px] mdl:w-[100%] xs:mdl-[10%]">
         </div>
 
         <!-- Contenedor Info -->
@@ -59,7 +59,7 @@
           </div>
           
           <!-- Descripción -->
-          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px] xs:pb-[5%] xs:px-4 xs:mt-2 mdl:text-[30px]">
+          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px] xs:pb-[5%] xs:px-4 xs:mt-2 mdl:text-[33px]">
             {{this.trofeo?.descripcion}}
           </p>
           
@@ -67,15 +67,15 @@
           <div class="flex flex-col justify-center items-start text-left customGradient bg-opacity-70 gap-3 z-10 mt-4 py-2
            w-[100%] mb-[3%] 3xl:h-[auto] 3xl:py-5 xs:w-[100%] xs:h-auto xs:items-left xs:py-3 xs:pl-6 xs:mb-7 mdl:items-center mdl:justify-center">
             <div class="flex gap-3 items-center">
-              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 xs:items-center mdl:h-[70px] mdl:w-[120px]"><img
+              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 xs:items-center mdl:h-[50px] mdl:w-[100px]"><img
                   src="{{this.juego1?.consolaIMG}}" class="w-[100%]"></div>
-              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[33px]">{{this.juego1?.nombre}}</h3>
+              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[27px]">{{this.juego1?.nombre}}</h3>
             </div>
             @if (this.trofeo?.juego2) {
             <div class="flex gap-3 items-center">
-              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 mdl:h-[70px] mdl:w-[120px]"><img
+              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 mdl:h-[50px] mdl:w-[100px]"><img
                   src="{{this.juego2?.consolaIMG}}" class="w-[100%]"></div>
-              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[33px]">{{this.juego2?.nombre}}</h3>
+              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[27px]">{{this.juego2?.nombre}}</h3>
             </div>
             }
           </div>
