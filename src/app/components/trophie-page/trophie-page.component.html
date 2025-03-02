@@ -22,7 +22,6 @@
   .titletext{
     font-family: 'lilyupcbold';
     font-weight: 900;
-    width: 300px;
     height: 50px;
     align-items: center;
     display: flex;
@@ -35,48 +34,48 @@
   }
   
 </style>
-<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative max-xs:overflow-auto max-mdl:overflow-auto" style="background-image: url('./../../../assets/images/Background2.png');">
+<body class="w-screen h-screen bg-[#173452] bg-no-repeat bg-cover bg-center relative xs:overflow-auto mdl:overflow-auto" style="background-image: url('./../../../assets/images/Background2.png');">
   <!-- Barras -->
   <i class="bi bi-arrow-left-short absolute top-9 text-[#ffffff] text-[40px] left-3 cursor-pointer 3xl:text-[80px]" (click)="returnHome()"></i>
-    <div class="bg-slate-400 w-[100%] absolute bottom-0 h-[30px] overflow-hidden max-xs:hidden max-mdl:hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%] rotate-180"></div>
+    <div class="bg-slate-400 w-[100%] absolute bottom-0 h-[30px] overflow-hidden xs:hidden mdl:hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%] rotate-180"></div>
     <div class="bg-slate-400 w-[100%] absolute top-0 h-[30px] overflow-hidden"><img src="../../../assets/images/Border.png" class="h-[140px] w-[100%]"></div>
     
     <!-- Contenido -->
-    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] max-xs:h-[100%] max-xs:p-0 max-xs:pt-[60%] max-mdl:h-[100%] max-mdl:p-0 max-mdl:pt-[60%]" >
+    <div class="flex flex-col justify-center items-center h-[100%] pr-[10%] xs:h-[100%] xs:p-0  mdl:h-[100%] mdl:p-0 mdl:pt-[0%]" >
       
-      <div class="flex justify-center max-xs:flex-col max-xs:w-[100%] max-xs:items-center max-mdl:flex-col max-mdl:w-[100%] max-mdl:items-center">
+      <div class="flex justify-center xs:flex-col xs:w-[100%] xs:items-center mdl:flex-col mdl:w-[100%] mdl:items-center ">
         <!-- Contenedor Modelo -->
-        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] max-xs:w-[100%] max-xs:h-[500px] max-xs:mt-[40%]max-mdl:w-[100%] max-mdl:h-[500px]">
+        <div id="container" #container class="w-[710px] h-[660px] 3xl:w-[1000px] 3xl:h-[1050px] xs:w-[100%] xs:h-[500px] xs:mt-[40%]mdl:w-[100%] mdl:h-[500px] xs:mdl-[10%]">
         </div>
 
         <!-- Contenedor Info -->
-        <div class="w-[28%] py-[2%] 3xl:py-[5%] max-xs:w-[100%] max-mdl:py-0 max-xs:mdl-[100%]">
+        <div class="w-[32%] py-[2%] 3xl:py-[5%] xs:w-[100%] mdl:py-0 mdl:w-[100%]">
 
           <!-- Título-->
-          <div class=" border-b-[#2E4152] text-center border-b-[4px] border-solid border-[#1b2833] flex justify-center items-center gap-[2%] max-xs:px-4 max-xs:text-xl max-xs:pb-2 max-mdl:px-4 max-mdl:text-xl max-mdl:pb-2">
+          <div class=" border-b-[#2E4152] text-center border-b-[4px] border-solid border-[#1b2833] flex justify-between items-center gap-[2%] xs:px-4 xs:text-xl xs:pb-2 mdl:px-4 mdl:text-xl mdl:pb-2 mdl:w-[100%]">
             <i class="bi bi-caret-left-fill text-[#32f052] text-[45px] cursor-pointer 3xl:text-[55px]" (click)="back()"></i>
-            <h1 class="text-white titletext text-[47px] text-shadow-black 3xl:text-[53px]">{{this.trofeo?.nombre}}</h1>
+            <h1 class="text-white titletext text-[47px] text-shadow-black 3xl:text-[53px] mdl:text-[83px] mdl:w-[auto]">{{this.trofeo?.nombre}}</h1>
             <i class="bi bi-caret-right-fill text-[#32f052] text-[40px] cursor-pointer 3xl:text-[55px]" (click)="next()"></i>
           </div>
           
           <!-- Descripción -->
-          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px] max-xs:pb-[5%] max-xs:px-4 max-xs:mt-2">
+          <p class="text-white text-[27px] px-[7%] pt-1 ptext 3xl:text-[37px] xs:pb-[5%] xs:px-4 xs:mt-2 mdl:text-[40px]">
             {{this.trofeo?.descripcion}}
           </p>
           
           <!-- Juegos -->
           <div class="flex flex-col justify-center items-start text-left customGradient bg-opacity-70 gap-3 z-10 mt-4 py-2
-           w-[100%] mb-[3%] 3xl:h-[110px] max-xs:w-[100%] max-xs:h-auto max-xs:items-left max-xs:py-3 max-xs:pl-6 max-xs:mb-7">
+           w-[100%] mb-[3%] 3xl:h-[auto] 3xl:py-5 xs:w-[100%] xs:h-auto xs:items-left xs:py-3 xs:pl-6 xs:mb-7 mdl:items-center mdl:justify-center">
             <div class="flex gap-3 items-center">
-              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center max-xs:h-[40px] max-xs:px-1  max-xs:items-center"><img
+              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 xs:items-center mdl:h-[70px] mdl:w-[120px]"><img
                   src="{{this.juego1?.consolaIMG}}" class="w-[100%]"></div>
-              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] max-xs:text-[16px]">{{this.juego1?.nombre}}</h3>
+              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[33px]">{{this.juego1?.nombre}}</h3>
             </div>
             @if (this.trofeo?.juego2) {
             <div class="flex gap-3 items-center">
-              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center max-xs:h-[40px] max-xs:px-1"><img
+              <div class="w-[70px] h-[40px] p-2  rounded-md bg-slate-400 flex justify-center items-center xs:h-[40px] xs:px-1 mdl:h-[70px] mdl:w-[120px]"><img
                   src="{{this.juego2?.consolaIMG}}" class="w-[100%]"></div>
-              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] max-xs:text-[16px]">{{this.juego2?.nombre}}</h3>
+              <h3 class="text-white text-[20px] consolestext 3xl:text-[30px] xs:text-[16px] mdl:text-[33px]">{{this.juego2?.nombre}}</h3>
             </div>
             }
           </div>
